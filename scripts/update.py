@@ -18,7 +18,7 @@ def roster_points(tm):
  return s
 def main():
  status=api("/mercado/status");rnd=int(status.get("rodada_atual") or 1)
- try:live_raw=api("/atletas/pontuados").get("atletas") or {}
+ try:live_raw=api("/atletas/pontuados").get("atletas") or {}\n  if isinstance(live_raw,list): live_raw={str(a.get("atleta_id",a.get("id",""))):a for a in live_raw}\n  elif isinstance(live_raw,dict): live_raw={str(k):v for k,v in live_raw.items()}\n  else: live_raw={}
  except Exception as e:print("Parciais indisponíveis:",e);live_raw={}
  output=[]
  for i,(tid,name,owner) in enumerate(TEAMS,1):
@@ -39,7 +39,7 @@ def main():
     else:partial+=n(p.get("pontuacao"));ok+=1
    cap=str(tm.get("capitao_id",""))
    for a in players:
-    if str(a.get("atleta_id",a.get("id","")))==cap:partial+=n(live_raw.get(cap,{}).get("pontuacao"));break
+    if str(a.get("atleta_id",a.get("id","")))==cap:partial+=n((live_raw.get(cap) or {}).get("pontuacao"));break
    live={"points":round(partial,2),"playersCounted":ok,"playersMissing":absent,"isPartial":True,"error":None}
   except Exception as e:live={"points":0,"playersCounted":0,"playersMissing":0,"isPartial":True,"error":str(e)}
   output.append({"id":tid,"name":name,"owner":owner,"total":round(total,2),"totalWithLive":round(total+live["points"],2),"roundsCount":count,"missingRounds":missing,"live":live})
