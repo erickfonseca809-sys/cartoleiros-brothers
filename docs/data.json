@@ -1,0 +1,331 @@
+{
+  "competition": "Cartoleiros Brothers",
+  "competitionId": "d5j7miik58ms73dbfmc0",
+  "season": 2026,
+  "currentRound": 35,
+  "updatedAt": "2026-11-19T17:24:00-03:00",
+  "source": "Retrato anterior de 19/11/2026; será substituído pela atualização automática",
+  "isSnapshot": true,
+  "teams": [
+    {
+      "id": 822609,
+      "name": "ARJ 26 F.C",
+      "owner": "Fabio Araujo",
+      "total": 2991.87,
+      "totalWithLive": 2991.87,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 328768,
+      "name": "Furious ScorpionS",
+      "owner": "LeH Borba",
+      "total": 2999.24,
+      "totalWithLive": 2999.24,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 25462945,
+      "name": "SP Tri-Mundial 2005",
+      "owner": "Leandro",
+      "total": 2964.51,
+      "totalWithLive": 2964.51,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 25835524,
+      "name": "Real TitoHenrique 8",
+      "owner": "Thiago Henrique",
+      "total": 3068.58,
+      "totalWithLive": 3068.58,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 25859656,
+      "name": "Fonseca'sClub",
+      "owner": "Fonseca",
+      "total": 2987.65,
+      "totalWithLive": 2987.65,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 28784388,
+      "name": "Aicitel de Latiffa",
+      "owner": "Leticia Fonseca",
+      "total": 2881.23,
+      "totalWithLive": 2881.23,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 4335282,
+      "name": "Makukos F.C",
+      "owner": "Markinhos",
+      "total": 2618.99,
+      "totalWithLive": 2618.99,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 27099138,
+      "name": "Paris Saint Ângela",
+      "owner": "Samuel",
+      "total": 2738.32,
+      "totalWithLive": 2738.32,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 29289498,
+      "name": "Estrela de Atibaia",
+      "owner": "Yuri Almeida",
+      "total": 2708.97,
+      "totalWithLive": 2708.97,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 2228212,
+      "name": "Esther 2022",
+      "owner": "Ugo Godoi",
+      "total": 2619.67,
+      "totalWithLive": 2619.67,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 340516,
+      "name": "Club XV de Quatorze",
+      "owner": "Daniel Guedes",
+      "total": 2434.37,
+      "totalWithLive": 2434.37,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 50097469,
+      "name": "FC.BlackandWhite",
+      "owner": "Lara Felix",
+      "total": 2455.92,
+      "totalWithLive": 2455.92,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 8699275,
+      "name": "Bazsant FC",
+      "owner": "Jhones Bazilio",
+      "total": 2146.91,
+      "totalWithLive": 2146.91,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 49133730,
+      "name": "MOURTOLA FC",
+      "owner": "Guilherme Moura",
+      "total": 1837.44,
+      "totalWithLive": 1837.44,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 49150912,
+      "name": "Milan AFCP",
+      "owner": "Rafael Francisco",
+      "total": 1819,
+      "totalWithLive": 1819,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 50987989,
+      "name": "vinicius boca junior",
+      "owner": "Vinicius Oliveira so",
+      "total": 1305.76,
+      "totalWithLive": 1305.76,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 727526,
+      "name": "B.L.S Camisa 10",
+      "owner": "Bruno",
+      "total": 2571.38,
+      "totalWithLive": 2571.38,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 25860015,
+      "name": "Atletico Oyatsu",
+      "owner": "Gustavo Teixeira",
+      "total": 2596.03,
+      "totalWithLive": 2596.03,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 996837,
+      "name": "Jumentus Dortmund",
+      "owner": "Caah Himalaia",
+      "total": 2130.69,
+      "totalWithLive": 2130.69,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    },
+    {
+      "id": 49637294,
+      "name": "Gustxxxvv",
+      "owner": "Gustavo Ribeiro",
+      "total": 1484.06,
+      "totalWithLive": 1484.06,
+      "roundsCount": null,
+      "missingRounds": [],
+      "live": {
+        "points": 0,
+        "playersCounted": 0,
+        "playersMissing": 0,
+        "isPartial": false,
+        "error": "Aguardando primeira coleta automática"
+      }
+    }
+  ]
+}
