@@ -18,7 +18,10 @@ def roster_points(tm):
  return s
 def main():
  status=api("/mercado/status");rnd=int(status.get("rodada_atual") or 1)
- try:live_raw=api("/atletas/pontuados").get("atletas") or {}\n  if isinstance(live_raw,list): live_raw={str(a.get("atleta_id",a.get("id",""))):a for a in live_raw}\n  elif isinstance(live_raw,dict): live_raw={str(k):v for k,v in live_raw.items()}\n  else: live_raw={}
+ try:live_raw=api("/atletas/pontuados").get("atletas") or {}
+  if isinstance(live_raw,list): live_raw={str(a.get("atleta_id",a.get("id",""))):a for a in live_raw}
+  elif isinstance(live_raw,dict): live_raw={str(k):v for k,v in live_raw.items()}
+  else: live_raw={}
  except Exception as e:print("Parciais indisponíveis:",e);live_raw={}
  output=[]
  for i,(tid,name,owner) in enumerate(TEAMS,1):
