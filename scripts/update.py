@@ -26,15 +26,15 @@ def main():
  except Exception as e:print("Parciais indisponíveis:",e);live_raw={}
  output=[]
  for i,(tid,name,owner) in enumerate(TEAMS,1):
-  print(f"{i}/20 {name}",flush=True);total=0.0;count=0;missing=[]
-  for r in range(1,rnd):
-   try:
-    tm=api(f"/time/id/{tid}/{r}")
-    if "pontos_campeonato" in tm:total=n(tm["pontos_campeonato"]);count=r
-    elif tm.get("atletas") is not None:total+=roster_points(tm);count+=1
-    else:missing.append(r)
-   except Exception:missing.append(r)
-   time.sleep(.06)
+  print(f"{i}/20 {name}",flush=True)
+  try:
+   profile=api(f"/time/id/{tid}")
+   total=n(profile.get("pontos_campeonato"))
+   count=int(profile.get("rodadas_jogadas") or max(0,rnd-1))
+   missing=[]
+  except Exception as e:
+   print(f"Falha no histórico de {name}: {e}",flush=True)
+   total=0.0;count=0;missing=list(range(1,rnd))
   try:
    tm=api(f"/time/id/{tid}/{rnd}");players=tm.get("atletas") or [];partial=0.0;ok=0;absent=0
    for a in players:
