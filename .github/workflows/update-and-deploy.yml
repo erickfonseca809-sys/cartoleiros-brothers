@@ -1,5 +1,7 @@
 name: Atualizar e publicar Cartoleiros Brothers
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
