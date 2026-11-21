@@ -5,7 +5,7 @@
   "currentRound": 36,
   "marketStatus": 2,
   "ballRolling": true,
-  "updatedAt": "2026-11-21T20:07:47.946934+00:00",
+  "updatedAt": "2026-11-21T21:07:46.466551+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
@@ -13,13 +13,13 @@
       "name": "ARJ 26 F.C",
       "owner": "Fabio Araujo",
       "total": 2957.27,
-      "totalWithLive": 2959.27,
+      "totalWithLive": 2980.37,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 2.0,
-        "playersCounted": 2,
-        "playersMissing": 10,
+        "points": 23.1,
+        "playersCounted": 4,
+        "playersMissing": 8,
         "isPartial": true,
         "error": null
       }
@@ -29,13 +29,13 @@
       "name": "Furious ScorpionS",
       "owner": "LeH Borba",
       "total": 2967.48,
-      "totalWithLive": 2967.48,
+      "totalWithLive": 2972.48,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 0.0,
-        "playersCounted": 1,
-        "playersMissing": 11,
+        "points": 5.0,
+        "playersCounted": 2,
+        "playersMissing": 10,
         "isPartial": true,
         "error": null
       }
@@ -45,13 +45,13 @@
       "name": "SP Tri-Mundial 2005",
       "owner": "Leandro",
       "total": 2928.83,
-      "totalWithLive": 2938.93,
+      "totalWithLive": 2961.23,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 10.1,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 32.4,
+        "playersCounted": 5,
+        "playersMissing": 7,
         "isPartial": true,
         "error": null
       }
@@ -61,13 +61,13 @@
       "name": "Real TitoHenrique 8",
       "owner": "Thiago Henrique",
       "total": 3029.67,
-      "totalWithLive": 3034.49,
+      "totalWithLive": 3057.97,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 4.82,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 28.3,
+        "playersCounted": 5,
+        "playersMissing": 7,
         "isPartial": true,
         "error": null
       }
@@ -77,13 +77,13 @@
       "name": "Fonseca'sClub",
       "owner": "Fonseca",
       "total": 2945.05,
-      "totalWithLive": 2954.65,
+      "totalWithLive": 2977.45,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 9.6,
-        "playersCounted": 3,
-        "playersMissing": 9,
+        "points": 32.4,
+        "playersCounted": 4,
+        "playersMissing": 8,
         "isPartial": true,
         "error": null
       }
@@ -93,13 +93,13 @@
       "name": "Aicitel de Latiffa",
       "owner": "Leticia Fonseca",
       "total": 2842.67,
-      "totalWithLive": 2844.67,
+      "totalWithLive": 2865.77,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 2.0,
-        "playersCounted": 2,
-        "playersMissing": 10,
+        "points": 23.1,
+        "playersCounted": 4,
+        "playersMissing": 8,
         "isPartial": true,
         "error": null
       }
@@ -109,13 +109,13 @@
       "name": "Makukos F.C",
       "owner": "Markinhos",
       "total": 2578.19,
-      "totalWithLive": 2580.99,
+      "totalWithLive": 2603.19,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 2.8,
-        "playersCounted": 3,
-        "playersMissing": 9,
+        "points": 25.0,
+        "playersCounted": 5,
+        "playersMissing": 7,
         "isPartial": true,
         "error": null
       }
@@ -125,13 +125,13 @@
       "name": "Paris Saint Ângela",
       "owner": "Samuel",
       "total": 2672.16,
-      "totalWithLive": 2678.26,
+      "totalWithLive": 2722.26,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 6.1,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 50.1,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -141,11 +141,11 @@
       "name": "Estrela de Atibaia",
       "owner": "Yuri Almeida",
       "total": 2699.27,
-      "totalWithLive": 2711.77,
+      "totalWithLive": 2733.87,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 12.5,
+        "points": 34.6,
         "playersCounted": 4,
         "playersMissing": 8,
         "isPartial": true,
@@ -157,13 +157,13 @@
       "name": "Esther 2022",
       "owner": "Ugo Godoi",
       "total": 2589.86,
-      "totalWithLive": 2595.98,
+      "totalWithLive": 2621.16,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 6.12,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 31.3,
+        "playersCounted": 5,
+        "playersMissing": 7,
         "isPartial": true,
         "error": null
       }
@@ -173,11 +173,11 @@
       "name": "Club XV de Quatorze",
       "owner": "Daniel Guedes",
       "total": 2401.78,
-      "totalWithLive": 2405.08,
+      "totalWithLive": 2422.38,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 3.3,
+        "points": 20.6,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -189,11 +189,11 @@
       "name": "FC.BlackandWhite",
       "owner": "Lara Felix",
       "total": 2460.17,
-      "totalWithLive": 2473.07,
+      "totalWithLive": 2508.17,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 12.9,
+        "points": 48.0,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -205,11 +205,11 @@
       "name": "Bazsant FC",
       "owner": "Jhones Bazilio",
       "total": 2098.22,
-      "totalWithLive": 2106.62,
+      "totalWithLive": 2110.62,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 8.4,
+        "points": 12.4,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -221,11 +221,11 @@
       "name": "MOURTOLA FC",
       "owner": "Guilherme Moura",
       "total": 1841.3,
-      "totalWithLive": 1846.2,
+      "totalWithLive": 1853.8,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 4.9,
+        "points": 12.5,
         "playersCounted": 4,
         "playersMissing": 8,
         "isPartial": true,
@@ -237,13 +237,13 @@
       "name": "Milan AFCP",
       "owner": "Rafael Francisco",
       "total": 1839.18,
-      "totalWithLive": 1839.18,
+      "totalWithLive": 1847.18,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 0.0,
-        "playersCounted": 1,
-        "playersMissing": 11,
+        "points": 8.0,
+        "playersCounted": 3,
+        "playersMissing": 9,
         "isPartial": true,
         "error": null
       }
@@ -253,11 +253,11 @@
       "name": "vinicius boca junior",
       "owner": "Vinicius Oliveira so",
       "total": 1279.16,
-      "totalWithLive": 1286.96,
+      "totalWithLive": 1289.76,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 7.8,
+        "points": 10.6,
         "playersCounted": 2,
         "playersMissing": 10,
         "isPartial": true,
@@ -269,11 +269,11 @@
       "name": "B.L.S Camisa 10",
       "owner": "Bruno",
       "total": 2598.81,
-      "totalWithLive": 2602.13,
+      "totalWithLive": 2609.11,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 3.32,
+        "points": 10.3,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -285,13 +285,13 @@
       "name": "Atletico Oyatsu",
       "owner": "Gustavo Teixeira",
       "total": 2583.61,
-      "totalWithLive": 2584.41,
+      "totalWithLive": 2590.21,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 0.8,
-        "playersCounted": 2,
-        "playersMissing": 10,
+        "points": 6.6,
+        "playersCounted": 4,
+        "playersMissing": 8,
         "isPartial": true,
         "error": null
       }
@@ -301,11 +301,11 @@
       "name": "Jumentus Dortmund",
       "owner": "Caah Himalaia",
       "total": 2060.45,
-      "totalWithLive": 2092.2,
+      "totalWithLive": 2104.05,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 31.75,
+        "points": 43.6,
         "playersCounted": 6,
         "playersMissing": 6,
         "isPartial": true,
