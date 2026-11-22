@@ -5,8 +5,11 @@ from urllib.request import Request, urlopen
 API="https://api.cartola.globo.com"
 TEAMS=[
 (822609,"ARJ 26 F.C","Fabio Araujo"),(328768,"Furious ScorpionS","LeH Borba"),(25462945,"SP Tri-Mundial 2005","Leandro"),(25835524,"Real TitoHenrique 8","Thiago Henrique"),(25859656,"Fonseca'sClub","Fonseca"),(28784388,"Aicitel de Latiffa","Leticia Fonseca"),(4335282,"Makukos F.C","Markinhos"),(27099138,"Paris Saint Ângela","Samuel"),(29289498,"Estrela de Atibaia","Yuri Almeida"),(2228212,"Esther 2022","Ugo Godoi"),(340516,"Club XV de Quatorze","Daniel Guedes"),(50097469,"FC.BlackandWhite","Lara Felix"),(8699275,"Bazsant FC","Jhones Bazilio"),(49133730,"MOURTOLA FC","Guilherme Moura"),(49150912,"Milan AFCP","Rafael Francisco"),(50987989,"vinicius boca junior","Vinicius Oliveira so"),(727526,"B.L.S Camisa 10","Bruno"),(25860015,"Atletico Oyatsu","Gustavo Teixeira"),(996837,"Jumentus Dortmund","Caah Himalaia"),(49637294,"Gustxxxvv","Gustavo Ribeiro")]
-def api(path):
- req=Request(API+path,headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json"})
+def api(path, authenticated=False):
+ headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json"}
+ if authenticated and os.environ.get("CARTOLA_COOKIE"):
+  headers["Cookie"]=os.environ["CARTOLA_COOKIE"]
+ req=Request(API+path,headers=headers)
  with urlopen(req,timeout=25) as r:return json.loads(r.read().decode())
 def n(x):
  try:return float(x or 0)
@@ -27,7 +30,7 @@ def main():
  # Pontos Corridos: agenda completa até a rodada 38 (API da competição)
  points_competition={"rounds":{str(r):[] for r in range(1,39)},"teams":{},"standings":[]}
  try:
-  comp=api("/auth/competicoes/pontoscorridos/slug/d5j7miik58ms73dbfmc0")
+  comp=api("/auth/competicoes/pontoscorridos/slug/d5j7miik58ms73dbfmc0",authenticated=True)
   team_map={}
   for bucket in (comp.get("participantes") or {},comp.get("convidados") or {}):
    for team in bucket.values():
