@@ -5,7 +5,7 @@
   "currentRound": 36,
   "marketStatus": 2,
   "ballRolling": true,
-  "updatedAt": "2026-11-22T21:30:31.729909+00:00",
+  "updatedAt": "2026-11-22T22:33:50.677963+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
@@ -13,11 +13,11 @@
       "name": "ARJ 26 F.C",
       "owner": "Fabio Araujo",
       "total": 2957.27,
-      "totalWithLive": 3002.88,
+      "totalWithLive": 3009.58,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 45.61,
+        "points": 52.31,
         "playersCounted": 7,
         "playersMissing": 5,
         "isPartial": true,
@@ -29,11 +29,11 @@
       "name": "Furious ScorpionS",
       "owner": "LeH Borba",
       "total": 2967.48,
-      "totalWithLive": 3015.89,
+      "totalWithLive": 3025.59,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 48.41,
+        "points": 58.11,
         "playersCounted": 11,
         "playersMissing": 1,
         "isPartial": true,
@@ -45,11 +45,11 @@
       "name": "SP Tri-Mundial 2005",
       "owner": "Leandro",
       "total": 2928.83,
-      "totalWithLive": 2984.64,
+      "totalWithLive": 2987.24,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 55.81,
+        "points": 58.41,
         "playersCounted": 8,
         "playersMissing": 4,
         "isPartial": true,
@@ -66,8 +66,8 @@
       "missingRounds": [],
       "live": {
         "points": 44.1,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "playersCounted": 7,
+        "playersMissing": 5,
         "isPartial": true,
         "error": null
       }
@@ -77,11 +77,11 @@
       "name": "Fonseca'sClub",
       "owner": "Fonseca",
       "total": 2945.05,
-      "totalWithLive": 3017.48,
+      "totalWithLive": 3017.68,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 72.43,
+        "points": 72.63,
         "playersCounted": 9,
         "playersMissing": 3,
         "isPartial": true,
@@ -93,11 +93,11 @@
       "name": "Aicitel de Latiffa",
       "owner": "Leticia Fonseca",
       "total": 2842.67,
-      "totalWithLive": 2893.48,
+      "totalWithLive": 2893.68,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 50.81,
+        "points": 51.01,
         "playersCounted": 8,
         "playersMissing": 4,
         "isPartial": true,
@@ -125,11 +125,11 @@
       "name": "Paris Saint Ângela",
       "owner": "Samuel",
       "total": 2672.16,
-      "totalWithLive": 2754.39,
+      "totalWithLive": 2756.29,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 82.23,
+        "points": 84.13,
         "playersCounted": 11,
         "playersMissing": 1,
         "isPartial": true,
@@ -146,8 +146,8 @@
       "missingRounds": [],
       "live": {
         "points": 50.7,
-        "playersCounted": 5,
-        "playersMissing": 7,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -162,8 +162,8 @@
       "missingRounds": [],
       "live": {
         "points": 45.5,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "playersCounted": 7,
+        "playersMissing": 5,
         "isPartial": true,
         "error": null
       }
@@ -173,11 +173,11 @@
       "name": "Club XV de Quatorze",
       "owner": "Daniel Guedes",
       "total": 2401.78,
-      "totalWithLive": 2466.11,
+      "totalWithLive": 2475.81,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 64.33,
+        "points": 74.03,
         "playersCounted": 9,
         "playersMissing": 3,
         "isPartial": true,
@@ -189,13 +189,13 @@
       "name": "FC.BlackandWhite",
       "owner": "Lara Felix",
       "total": 2460.17,
-      "totalWithLive": 2527.47,
+      "totalWithLive": 2527.67,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 67.3,
-        "playersCounted": 5,
-        "playersMissing": 7,
+        "points": 67.5,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -205,13 +205,13 @@
       "name": "Bazsant FC",
       "owner": "Jhones Bazilio",
       "total": 2098.22,
-      "totalWithLive": 2113.62,
+      "totalWithLive": 2116.01,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 15.4,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 17.79,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -221,13 +221,13 @@
       "name": "MOURTOLA FC",
       "owner": "Guilherme Moura",
       "total": 1841.3,
-      "totalWithLive": 1880.7,
+      "totalWithLive": 1884.49,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 39.4,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "points": 43.19,
+        "playersCounted": 7,
+        "playersMissing": 5,
         "isPartial": true,
         "error": null
       }
@@ -242,8 +242,8 @@
       "missingRounds": [],
       "live": {
         "points": 21.13,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "playersCounted": 8,
+        "playersMissing": 4,
         "isPartial": true,
         "error": null
       }
@@ -285,13 +285,13 @@
       "name": "Atletico Oyatsu",
       "owner": "Gustavo Teixeira",
       "total": 2583.61,
-      "totalWithLive": 2610.92,
+      "totalWithLive": 2621.32,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 27.31,
-        "playersCounted": 8,
-        "playersMissing": 4,
+        "points": 37.71,
+        "playersCounted": 9,
+        "playersMissing": 3,
         "isPartial": true,
         "error": null
       }
@@ -317,11 +317,11 @@
       "name": "Gustxxxvv",
       "owner": "Gustavo Ribeiro",
       "total": 1473.52,
-      "totalWithLive": 1480.22,
+      "totalWithLive": 1493.31,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 6.7,
+        "points": 19.79,
         "playersCounted": 4,
         "playersMissing": 8,
         "isPartial": true,
