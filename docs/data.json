@@ -4,8 +4,8 @@
   "season": 2026,
   "currentRound": 36,
   "marketStatus": 2,
-  "ballRolling": false,
-  "updatedAt": "2026-11-22T18:30:57.596009+00:00",
+  "ballRolling": true,
+  "updatedAt": "2026-11-22T19:41:41.052291+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
@@ -29,13 +29,13 @@
       "name": "Furious ScorpionS",
       "owner": "LeH Borba",
       "total": 2967.48,
-      "totalWithLive": 2998.35,
+      "totalWithLive": 3016.15,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 30.87,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "points": 48.67,
+        "playersCounted": 8,
+        "playersMissing": 4,
         "isPartial": true,
         "error": null
       }
@@ -77,13 +77,13 @@
       "name": "Fonseca'sClub",
       "owner": "Fonseca",
       "total": 2945.05,
-      "totalWithLive": 2989.25,
+      "totalWithLive": 3018.55,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 44.2,
-        "playersCounted": 5,
-        "playersMissing": 7,
+        "points": 73.5,
+        "playersCounted": 8,
+        "playersMissing": 4,
         "isPartial": true,
         "error": null
       }
@@ -93,13 +93,13 @@
       "name": "Aicitel de Latiffa",
       "owner": "Leticia Fonseca",
       "total": 2842.67,
-      "totalWithLive": 2886.64,
+      "totalWithLive": 2893.14,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 43.97,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "points": 50.47,
+        "playersCounted": 7,
+        "playersMissing": 5,
         "isPartial": true,
         "error": null
       }
@@ -125,13 +125,13 @@
       "name": "Paris Saint Ângela",
       "owner": "Samuel",
       "total": 2672.16,
-      "totalWithLive": 2738.86,
+      "totalWithLive": 2751.86,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 66.7,
-        "playersCounted": 8,
-        "playersMissing": 4,
+        "points": 79.7,
+        "playersCounted": 9,
+        "playersMissing": 3,
         "isPartial": true,
         "error": null
       }
@@ -173,13 +173,13 @@
       "name": "Club XV de Quatorze",
       "owner": "Daniel Guedes",
       "total": 2401.78,
-      "totalWithLive": 2450.58,
+      "totalWithLive": 2463.58,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 48.8,
-        "playersCounted": 5,
-        "playersMissing": 7,
+        "points": 61.8,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -221,13 +221,13 @@
       "name": "MOURTOLA FC",
       "owner": "Guilherme Moura",
       "total": 1841.3,
-      "totalWithLive": 1859.8,
+      "totalWithLive": 1869.5,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 18.5,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 28.2,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -237,13 +237,13 @@
       "name": "Milan AFCP",
       "owner": "Rafael Francisco",
       "total": 1839.18,
-      "totalWithLive": 1844.28,
+      "totalWithLive": 1862.28,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 5.1,
-        "playersCounted": 4,
-        "playersMissing": 8,
+        "points": 23.1,
+        "playersCounted": 6,
+        "playersMissing": 6,
         "isPartial": true,
         "error": null
       }
@@ -301,13 +301,13 @@
       "name": "Jumentus Dortmund",
       "owner": "Caah Himalaia",
       "total": 2060.45,
-      "totalWithLive": 2092.18,
+      "totalWithLive": 2097.18,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 31.73,
-        "playersCounted": 6,
-        "playersMissing": 6,
+        "points": 36.73,
+        "playersCounted": 7,
+        "playersMissing": 5,
         "isPartial": true,
         "error": null
       }
