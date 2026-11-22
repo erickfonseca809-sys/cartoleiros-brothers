@@ -22,6 +22,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Atualizar pontuações
+        env:
+          CARTOLA_COOKIE: ${{ secrets.CARTOLA_COOKIE }}
         run: python scripts/update.py
       - name: Salvar JSON atualizado
         run: |
