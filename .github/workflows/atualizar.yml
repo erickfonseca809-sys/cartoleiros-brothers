@@ -18,7 +18,9 @@ jobs:
           node-version: 20
       - name: Buscar dados do Cartola
         run: node scripts/atualizar.mjs
-      - name: Gerar confrontos de pontos corridos
+      - name: Integrar dados ao site
+        run: node scripts/integrar-site.mjs
+      - name: Atualizar confrontos e classificação
         run: node scripts/confrontos.mjs
       - name: Validar estrutura dos dados coletados
         run: node scripts/validar.mjs
