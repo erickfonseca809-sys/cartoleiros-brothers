@@ -15,7 +15,7 @@ const teams = (league.times || []).map(t => {
   const total = closedRounds.length ? calculatedTotal : Number(oldTeam?.total || 0);
   const partial = league.rodadaParcial ? (t.parcial ?? oldTeam?.live?.points ?? null) : null;
   return {
-    id, name: t.nome, owner: t.dono, total,
+    id, name: t.nome, owner: t.dono, total, roundScores: points,
     totalWithLive: total + (partial || 0),
     roundsCount: closedRounds.length,
     missingRounds: Object.entries(points).filter(([r,v])=>Number(r)<=league.rodadaAtual && v===null).map(([r])=>Number(r)),
