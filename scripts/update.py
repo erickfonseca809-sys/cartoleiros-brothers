@@ -5,15 +5,32 @@ from urllib.request import Request, urlopen
 API="https://api.cartola.globo.com"
 TEAMS=[
 (822609,"ARJ 26 F.C","Fabio Araujo"),(328768,"Furious ScorpionS","LeH Borba"),(25462945,"SP Tri-Mundial 2005","Leandro"),(25835524,"Real TitoHenrique 8","Thiago Henrique"),(25859656,"Fonseca'sClub","Fonseca"),(28784388,"Aicitel de Latiffa","Leticia Fonseca"),(4335282,"Makukos F.C","Markinhos"),(27099138,"Paris Saint Ângela","Samuel"),(29289498,"Estrela de Atibaia","Yuri Almeida"),(2228212,"Esther 2022","Ugo Godoi"),(340516,"Club XV de Quatorze","Daniel Guedes"),(50097469,"FC.BlackandWhite","Lara Felix"),(8699275,"Bazsant FC","Jhones Bazilio"),(49133730,"MOURTOLA FC","Guilherme Moura"),(49150912,"Milan AFCP","Rafael Francisco"),(50987989,"vinicius boca junior","Vinicius Oliveira so"),(727526,"B.L.S Camisa 10","Bruno"),(25860015,"Atletico Oyatsu","Gustavo Teixeira"),(996837,"Jumentus Dortmund","Caah Himalaia"),(49637294,"Gustxxxvv","Gustavo Ribeiro")]
-def api(path, authenticated=False):
+def api(path, authenticated=False, base=API):
  headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json"}
  if authenticated and os.environ.get("CARTOLA_COOKIE"):
   token=os.environ["CARTOLA_COOKIE"].strip()
   token=token[7:].strip() if token.lower().startswith("bearer ") else token
   headers["X-GLB-Token"]=token
   headers["Authorization"]="Bearer "+token
- req=Request(API+path,headers=headers)
+ req=Request(base+path,headers=headers)
  with urlopen(req,timeout=25) as r:return json.loads(r.read().decode())
+def auth_diagnostic():
+ if not os.environ.get("CARTOLA_COOKIE"):
+  print("Diagnóstico auth: secret CARTOLA_COOKIE ausente.")
+  return
+ tests=[("auth/time",API+"/auth/time"),("auth/liga",API+"/auth/liga/d5j7miik58ms73dbfmc0"),("competicoes",API+"/auth/competicoes/pontoscorridos/slug/d5j7miik58ms73dbfmc0"),("legacy auth/liga","https://api.cartolafc.globo.com/auth/liga/d5j7miik58ms73dbfmc0")]
+ for label,url in tests:
+  try:
+   token=os.environ["CARTOLA_COOKIE"].strip()
+   token=token[7:].strip() if token.lower().startswith("bearer ") else token
+   req=Request(url,headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json","X-GLB-Token":token,"Authorization":"Bearer "+token})
+   with urlopen(req,timeout=20) as response:
+    data=json.loads(response.read().decode())
+   print(f"Auth diagnóstico {label}: HTTP OK; resposta tipo {type(data).__name__}; chaves {list(data)[:12] if isinstance(data,dict) else 'lista'}")
+  except Exception as e:
+   code=getattr(e,"code",None)
+   print(f"Auth diagnóstico {label}: HTTP {code or 'erro'} ({type(e).__name__})")
+
 def n(x):
  try:return float(x or 0)
  except:return 0.0
@@ -24,6 +41,7 @@ def roster_points(tm):
  return s
 def main():
  status=api("/mercado/status");rnd=int(status.get("rodada_atual") or 1)
+ auth_diagnostic()
  try:
   live_raw=api("/atletas/pontuados").get("atletas") or {}
   if isinstance(live_raw,list): live_raw={str(a.get("atleta_id",a.get("id",""))):a for a in live_raw}
