@@ -81,8 +81,16 @@ for (const cfg of config.times) {
 
   for (let r = 1; r <= ultimaFechada; r++) {
     if (time.pontos[r] != null) continue; // já guardado, rodada fechada não muda
-    const d = await get(`/time/slug/${time.slug}/${r}`);
+    let d = await get(`/time/slug/${time.slug}/${r}`);
     await sleep(400);
+    // Fallback server-side proxy when the official historical endpoint returns no data.
+    if ((!d || typeof d.pontos !== 'number') && time.id) {
+      try {
+        const proxy = await fetch(`https://api.kartolafc.com.br/time/id/${time.id}/${r}`, { headers: HEADERS });
+        if (proxy.ok) d = await proxy.json();
+      } catch {}
+      await sleep(250);
+    }
     if (!d) { time.pontos[r] = null; continue; }
     if (d.time?.nome) time.nome = d.time.nome;
     if (d.time?.url_escudo_png) time.escudo = d.time.url_escudo_png;
