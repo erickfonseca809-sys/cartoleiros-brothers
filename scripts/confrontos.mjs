@@ -38,6 +38,6 @@ const pointsCompetition = {
 };
 data.pointsCompetition = pointsCompetition;
 data.updatedAt = new Date().toISOString();
-data.source = (data.source || 'Cartola') + ' • calendário H2H gerado';
+// Preserve the existing source label; the fixture generation is not a data source.
 await writeFile(path, JSON.stringify(data, null, 2) + '\n');
 console.log('Calendário H2H gerado: 38 rodadas, 10 confrontos por rodada, 20 times.');
