@@ -14,23 +14,6 @@ def api(path, authenticated=False, base=API):
   headers["Authorization"]="Bearer "+token
  req=Request(base+path,headers=headers)
  with urlopen(req,timeout=25) as r:return json.loads(r.read().decode())
-def auth_diagnostic():
- if not os.environ.get("CARTOLA_COOKIE"):
-  print("Diagnóstico auth: secret CARTOLA_COOKIE ausente.")
-  return
- tests=[("auth/time",API+"/auth/time"),("auth/liga",API+"/auth/liga/d5j7miik58ms73dbfmc0"),("competicoes",API+"/auth/competicoes/pontoscorridos/slug/d5j7miik58ms73dbfmc0"),("legacy auth/liga","https://api.cartolafc.globo.com/auth/liga/d5j7miik58ms73dbfmc0")]
- for label,url in tests:
-  try:
-   token=os.environ["CARTOLA_COOKIE"].strip()
-   token=token[7:].strip() if token.lower().startswith("bearer ") else token
-   req=Request(url,headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json","X-GLB-Token":token,"Authorization":"Bearer "+token})
-   with urlopen(req,timeout=20) as response:
-    data=json.loads(response.read().decode())
-   print(f"Auth diagnóstico {label}: HTTP OK; resposta tipo {type(data).__name__}; chaves {list(data)[:12] if isinstance(data,dict) else 'lista'}")
-  except Exception as e:
-   code=getattr(e,"code",None)
-   print(f"Auth diagnóstico {label}: HTTP {code or 'erro'} ({type(e).__name__})")
-
 def n(x):
  try:return float(x or 0)
  except:return 0.0
@@ -41,7 +24,6 @@ def roster_points(tm):
  return s
 def main():
  status=api("/mercado/status");rnd=int(status.get("rodada_atual") or 1)
- auth_diagnostic()
  try:
   live_raw=api("/atletas/pontuados").get("atletas") or {}
   if isinstance(live_raw,list): live_raw={str(a.get("atleta_id",a.get("id",""))):a for a in live_raw}
