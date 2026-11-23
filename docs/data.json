@@ -5,7 +5,7 @@
   "currentRound": 36,
   "marketStatus": 2,
   "ballRolling": false,
-  "updatedAt": "2026-11-23T17:13:39.507350+00:00",
+  "updatedAt": "2026-11-23T17:24:23.652807+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
@@ -65,7 +65,7 @@
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 50,
+        "points": 50.0,
         "playersCounted": 7,
         "playersMissing": 5,
         "isPartial": true,
@@ -257,7 +257,7 @@
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 5,
+        "points": 5.0,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -3205,82 +3205,82 @@
         {
           "homeId": "25835524",
           "awayId": "822609",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 50.0,
+          "awayScore": 53.21,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "25462945",
           "awayId": "25859656",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 59.91,
+          "awayScore": 71.54,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "328768",
           "awayId": "28784388",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 62.01,
+          "awayScore": 49.51,
+          "homePts": 3,
+          "awayPts": 0
         },
         {
           "homeId": "49637294",
           "awayId": "4335282",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 21.4,
+          "awayScore": 34.8,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "996837",
           "awayId": "27099138",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 33.73,
+          "awayScore": 89.94,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "25860015",
           "awayId": "29289498",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 43.61,
+          "awayScore": 59.6,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "727526",
           "awayId": "2228212",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 12.8,
+          "awayScore": 51.4,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "50987989",
           "awayId": "340516",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 5.0,
+          "awayScore": 78.34,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "49150912",
           "awayId": "50097469",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 27.64,
+          "awayScore": 76.4,
+          "homePts": 0,
+          "awayPts": 3
         },
         {
           "homeId": "49133730",
           "awayId": "8699275",
-          "homeScore": null,
-          "awayScore": null,
-          "homePts": null,
-          "awayPts": null
+          "homeScore": 42.5,
+          "awayScore": 37.88,
+          "homePts": 3,
+          "awayPts": 0
         }
       ],
       "37": [
@@ -3449,57 +3449,127 @@
       ]
     },
     "teams": {
-      "328768": "Furious ScorpionS",
-      "340516": "Club XV de Quatorze",
-      "727526": "B.L.S Camisa 10",
       "822609": "ARJ 26 F.C",
-      "996837": "Jumentus Dortmund",
-      "2228212": "Esther 2022",
-      "4335282": "Makukos F.C",
-      "8699275": "Bazsant FC",
+      "328768": "Furious ScorpionS",
       "25462945": "SP Tri-Mundial 2005",
       "25835524": "Real TitoHenrique 8",
       "25859656": "Fonseca'sClub",
-      "25860015": "Atletico Oyatsu",
-      "27099138": "Paris Saint Ângela",
       "28784388": "Aicitel de Latiffa",
+      "4335282": "Makukos F.C",
+      "27099138": "Paris Saint Ângela",
       "29289498": "Estrela de Atibaia",
+      "2228212": "Esther 2022",
+      "340516": "Club XV de Quatorze",
+      "50097469": "FC.BlackandWhite",
+      "8699275": "Bazsant FC",
       "49133730": "MOURTOLA FC",
       "49150912": "Milan AFCP",
-      "49637294": "Gustxxxvv",
-      "50097469": "FC.BlackandWhite",
-      "50987989": "vinicius boca junior"
+      "50987989": "vinicius boca junior",
+      "727526": "B.L.S Camisa 10",
+      "25860015": "Atletico Oyatsu",
+      "996837": "Jumentus Dortmund",
+      "49637294": "Gustxxxvv"
     },
     "standings": [
       {
-        "id": "822609",
-        "name": "ARJ 26 F.C",
-        "points": 0,
-        "wins": 0,
+        "id": "340516",
+        "name": "Club XV de Quatorze",
+        "points": 3,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "sg": 0,
-        "played": 0
+        "sg": 73.34,
+        "played": 1
+      },
+      {
+        "id": "27099138",
+        "name": "Paris Saint Ângela",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 56.21,
+        "played": 1
+      },
+      {
+        "id": "50097469",
+        "name": "FC.BlackandWhite",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 48.760000000000005,
+        "played": 1
+      },
+      {
+        "id": "2228212",
+        "name": "Esther 2022",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 38.599999999999994,
+        "played": 1
+      },
+      {
+        "id": "29289498",
+        "name": "Estrela de Atibaia",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 15.990000000000002,
+        "played": 1
+      },
+      {
+        "id": "4335282",
+        "name": "Makukos F.C",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 13.399999999999999,
+        "played": 1
       },
       {
         "id": "328768",
         "name": "Furious ScorpionS",
-        "points": 0,
-        "wins": 0,
+        "points": 3,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "sg": 0,
-        "played": 0
+        "sg": 12.5,
+        "played": 1
       },
       {
-        "id": "25462945",
-        "name": "SP Tri-Mundial 2005",
-        "points": 0,
-        "wins": 0,
+        "id": "25859656",
+        "name": "Fonseca'sClub",
+        "points": 3,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "sg": 0,
-        "played": 0
+        "sg": 11.63000000000001,
+        "played": 1
+      },
+      {
+        "id": "49133730",
+        "name": "MOURTOLA FC",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 4.619999999999997,
+        "played": 1
+      },
+      {
+        "id": "822609",
+        "name": "ARJ 26 F.C",
+        "points": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "sg": 3.210000000000001,
+        "played": 1
       },
       {
         "id": "25835524",
@@ -3507,89 +3577,9 @@
         "points": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "25859656",
-        "name": "Fonseca'sClub",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "28784388",
-        "name": "Aicitel de Latiffa",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "4335282",
-        "name": "Makukos F.C",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "27099138",
-        "name": "Paris Saint Ângela",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "29289498",
-        "name": "Estrela de Atibaia",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "2228212",
-        "name": "Esther 2022",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "340516",
-        "name": "Club XV de Quatorze",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "50097469",
-        "name": "FC.BlackandWhite",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
+        "losses": 1,
+        "sg": -3.210000000000001,
+        "played": 1
       },
       {
         "id": "8699275",
@@ -3597,69 +3587,29 @@
         "points": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
+        "losses": 1,
+        "sg": -4.619999999999997,
+        "played": 1
       },
       {
-        "id": "49133730",
-        "name": "MOURTOLA FC",
+        "id": "25462945",
+        "name": "SP Tri-Mundial 2005",
         "points": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
+        "losses": 1,
+        "sg": -11.63000000000001,
+        "played": 1
       },
       {
-        "id": "49150912",
-        "name": "Milan AFCP",
+        "id": "28784388",
+        "name": "Aicitel de Latiffa",
         "points": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "50987989",
-        "name": "vinicius boca junior",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "727526",
-        "name": "B.L.S Camisa 10",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "25860015",
-        "name": "Atletico Oyatsu",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
-      },
-      {
-        "id": "996837",
-        "name": "Jumentus Dortmund",
-        "points": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
+        "losses": 1,
+        "sg": -12.5,
+        "played": 1
       },
       {
         "id": "49637294",
@@ -3667,9 +3617,59 @@
         "points": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "sg": 0,
-        "played": 0
+        "losses": 1,
+        "sg": -13.399999999999999,
+        "played": 1
+      },
+      {
+        "id": "25860015",
+        "name": "Atletico Oyatsu",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "sg": -15.990000000000002,
+        "played": 1
+      },
+      {
+        "id": "727526",
+        "name": "B.L.S Camisa 10",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "sg": -38.599999999999994,
+        "played": 1
+      },
+      {
+        "id": "49150912",
+        "name": "Milan AFCP",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "sg": -48.760000000000005,
+        "played": 1
+      },
+      {
+        "id": "996837",
+        "name": "Jumentus Dortmund",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "sg": -56.21,
+        "played": 1
+      },
+      {
+        "id": "50987989",
+        "name": "vinicius boca junior",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "sg": -73.34,
+        "played": 1
       }
     ]
   }
