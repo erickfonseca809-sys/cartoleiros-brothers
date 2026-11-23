@@ -5,7 +5,7 @@
   "currentRound": 36,
   "marketStatus": 2,
   "ballRolling": true,
-  "updatedAt": "2026-11-23T00:19:09.772278+00:00",
+  "updatedAt": "2026-11-23T00:22:03.164058+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
@@ -253,11 +253,11 @@
       "name": "vinicius boca junior",
       "owner": "Vinicius Oliveira so",
       "total": 1279.16,
-      "totalWithLive": 1283.16,
+      "totalWithLive": 1283.66,
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 4.0,
+        "points": 4.5,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
