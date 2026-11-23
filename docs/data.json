@@ -4,8 +4,8 @@
   "season": 2026,
   "currentRound": 36,
   "marketStatus": 2,
-  "ballRolling": true,
-  "updatedAt": "2026-11-23T17:26:02.151775+00:00",
+  "ballRolling": false,
+  "updatedAt": "2026-11-23T17:39:33.075125+00:00",
   "source": "API oficial do Cartola",
   "teams": [
     {
