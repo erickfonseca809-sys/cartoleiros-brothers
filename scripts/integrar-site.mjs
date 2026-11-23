@@ -3,7 +3,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 const league = JSON.parse(await readFile('data/liga.json', 'utf8'));
 const current = JSON.parse(await readFile('docs/data.json', 'utf8'));
 const oldH2H = current.pointsCompetition || null;
-const teamIdBySlug = new Map((current.teams || []).map(t => [String(t.slug || ''), Number(t.id)]).filter(([s,id])=>s && Number.isFinite(id)));
+// IDs dos times são mantidos pelo coletor em data/liga.json.
 const teams = (league.times || []).map(t => {
   const id = Number(t.id);
   if (!Number.isFinite(id)) throw new Error('ID ausente para '+t.nome);
