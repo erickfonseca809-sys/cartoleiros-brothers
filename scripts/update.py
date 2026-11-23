@@ -64,6 +64,25 @@ def main():
   print("Pontos Corridos: agenda capturada para as rodadas 1-38.")
  except Exception as e:
   print("Pontos Corridos indisponível (sem quebrar atualização geral):",e)
+ # Fallback para garantir calendario visivel mesmo quando API autenticada falhar.
+ def calendario_valido(rounds):
+  return len(rounds)==38 and all(isinstance(rounds.get(str(r)),list) and len(rounds[str(r)])==10 for r in range(1,39))
+ if not calendario_valido(points_competition.get("rounds",{})):
+  rotating=[{"id":tid,"name":name} for tid,name,owner in TEAMS]
+  fixed=rotating[0]; rotating=rotating[1:]; first=[]
+  for r in range(19):
+   slots=[fixed]+rotating; fixtures=[]
+   for i in range(10):
+    h,a=slots[i],slots[19-i]
+    if r%2: h,a=a,h
+    fixtures.append({"homeId":str(h["id"]),"awayId":str(a["id"]),"homeScore":None,"awayScore":None,"homePts":None,"awayPts":None})
+   first.append(fixtures); rotating=[rotating[-1]]+rotating[:-1]
+  rounds={str(i+1):fs for i,fs in enumerate(first)}
+  for i,fs in enumerate(first):
+   rounds[str(i+20)]=[{"homeId":m["awayId"],"awayId":m["homeId"],"homeScore":None,"awayScore":None,"homePts":None,"awayPts":None} for m in fs]
+  names={str(tid):name for tid,name,owner in TEAMS}
+  points_competition={"rounds":rounds,"teams":names,"standings":[{"id":str(tid),"name":name,"points":0,"wins":0,"draws":0,"losses":0,"sg":0,"played":0} for tid,name,owner in TEAMS]}
+  print("Calendário H2H gerado localmente: 38 rodadas, 380 jogos.")
  output=[]
  for i,(tid,name,owner) in enumerate(TEAMS,1):
   print(f"{i}/20 {name}",flush=True)
@@ -87,6 +106,27 @@ def main():
    live={"points":round(partial,2),"playersCounted":ok,"playersMissing":absent,"isPartial":True,"error":None}
   except Exception as e:live={"points":0,"playersCounted":0,"playersMissing":0,"isPartial":True,"error":str(e)}
   output.append({"id":tid,"name":name,"owner":owner,"total":round(total,2),"totalWithLive":round(total+live["points"],2),"roundsCount":count,"missingRounds":missing,"live":live})
+ # Alimenta confronto da rodada atual com parciais, quando disponíveis.
+ if points_competition.get("rounds") and str(rnd) in points_competition["rounds"]:
+  live_by_id={str(t["id"]):t["live"]["points"] for t in output}
+  for match in points_competition["rounds"][str(rnd)]:
+   hs=live_by_id.get(str(match["homeId"]));as_=live_by_id.get(str(match["awayId"]))
+   match["homeScore"]=hs;match["awayScore"]=as_
+   if hs is not None and as_ is not None:
+    match["homePts"]=3 if hs>as_ else 0 if hs<as_ else 1
+    match["awayPts"]=3 if as_>hs else 0 if as_<hs else 1
+ # Classificacao calculada apenas com confrontos que tenham resultado.
+ standings={str(tid):{"id":str(tid),"name":name,"points":0,"wins":0,"draws":0,"losses":0,"sg":0,"played":0} for tid,name,owner in TEAMS}
+ for matches in points_competition.get("rounds",{}).values():
+  for m in matches:
+   if m.get("homePts") is None or m.get("awayPts") is None: continue
+   h=standings[str(m["homeId"])];a=standings[str(m["awayId"])]
+   h["played"]+=1;a["played"]+=1;h["sg"]+=n(m["homeScore"])-n(m["awayScore"]);a["sg"]+=n(m["awayScore"])-n(m["homeScore"])
+   h["points"]+=m["homePts"];a["points"]+=m["awayPts"]
+   if m["homePts"]==3:h["wins"]+=1;a["losses"]+=1
+   elif m["awayPts"]==3:a["wins"]+=1;h["losses"]+=1
+   else:h["draws"]+=1;a["draws"]+=1
+ points_competition["standings"]=sorted(standings.values(),key=lambda t:(-t["points"],-t["wins"],-t["sg"]))
  os.makedirs("docs",exist_ok=True)
  data={"competition":"Cartoleiros Brothers","competitionId":"d5j7miik58ms73dbfmc0","season":2026,"currentRound":rnd,"marketStatus":status.get("status_mercado"),"ballRolling":status.get("bola_rolando"),"updatedAt":datetime.now(timezone.utc).isoformat(),"source":"API oficial do Cartola","teams":output,"pointsCompetition":points_competition}
  with open("docs/data.json","w",encoding="utf-8") as f:json.dump(data,f,ensure_ascii=False,indent=2)
