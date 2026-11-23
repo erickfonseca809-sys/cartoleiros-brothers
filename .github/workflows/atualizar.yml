@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/atualizar.yml'
 
 permissions:
   contents: write
