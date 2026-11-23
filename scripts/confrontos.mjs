@@ -50,5 +50,5 @@ for(const matches of Object.values(competition.rounds)) for(const m of matches){
 competition.standings=[...stats.values()].map(s=>({name:s.name,points:s.points,wins:s.wins,draws:s.draws,losses:s.losses,sg:s.sg,played:s.played})).sort((a,b)=>b.points-a.points||b.wins-a.wins||b.sg-a.sg);
 site.pointsCompetition=competition;
 site.updatedAt=league.atualizadoEm||new Date().toISOString();
-await writeFile(sitePath,JSON.stringify(site,null,2)+'\\n');
+await writeFile(sitePath,JSON.stringify(site,null,2)+'\n');
 console.log('H2H atualizado: calendário preservado, resultados e classificação recalculados.');
