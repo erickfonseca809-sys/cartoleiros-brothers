@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartoleiros Brothers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --campo:#12402f; --campo-escuro:#0b2a1f; --giz:#f5f6f0; --papel:#ffffff;
+  --texto:#1b241f; --suave:#5d6b63; --linha:#dfe4da;
+  --amarelo:#f2c230; --vermelho:#d2453d;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --giz:#0e1411; --papel:#17201b; --texto:#eef2ea; --suave:#9aa89f; --linha:#2a362f; color-scheme: dark; }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--giz);color:var(--texto);font:400 16px/1.5 "Source Sans 3",system-ui,sans-serif;padding-bottom:env(safe-area-inset-bottom,0px)}
+header{background:var(--campo);color:#f5f6f0;padding:calc(28px + env(safe-area-inset-top,0px)) 20px 22px;
+  background-image:repeating-linear-gradient(90deg,transparent 0 56px,rgba(255,255,255,.035) 56px 112px)}
+.wrap{max-width:860px;margin:0 auto}
+h1{margin:0;font:800 clamp(38px,9vw,64px)/.95 "Barlow Condensed",Impact,sans-serif;letter-spacing:.01em;text-transform:uppercase}
+.sub{margin:10px 0 0;color:#b9cfc3;font-size:15px}
+nav{background:var(--campo-escuro);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;gap:4px;padding:0 12px;overflow-x:auto}
+nav button{background:none;border:0;color:#b9cfc3;font:700 18px "Barlow Condensed",sans-serif;letter-spacing:.03em;padding:14px 14px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+nav button[aria-selected="true"]{color:#fff;border-bottom-color:var(--amarelo)}
+nav button:focus-visible,select:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px}
+main{padding:20px 12px 60px}
+.painel{background:var(--papel);border:1px solid var(--linha);border-radius:6px;overflow:hidden}
+.linha{display:grid;grid-template-columns:34px 40px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-top:1px solid var(--linha)}
+.linha:first-child{border-top:0}
+.pos{font:700 24px "Barlow Condensed",sans-serif;color:var(--suave);text-align:center}
+.linha.lider .pos{color:var(--campo)}
+@media (prefers-color-scheme: dark){.linha.lider .pos{color:var(--amarelo)}}
+.escudo{width:40px;height:40px;object-fit:contain;border-radius:50%;background:var(--giz)}
+.sem-escudo{width:40px;height:40px;border-radius:50%;background:var(--linha)}
+.nome{font-weight:600;line-height:1.2}
+.dono{color:var(--suave);font-size:14px}
+.pts{font:700 26px "Barlow Condensed",sans-serif;text-align:right;line-height:1}
+.pts small{display:block;font:400 13px "Source Sans 3",sans-serif;color:var(--suave);margin-top:3px}
+.cartao{display:inline-block;width:11px;height:15px;border-radius:2px;vertical-align:-2px;margin-right:6px}
+.amarelo{background:var(--amarelo)} .vermelho{background:var(--vermelho)}
+.barra{display:flex;align-items:center;gap:10px;margin:0 0 14px;flex-wrap:wrap}
+select{font:600 16px "Source Sans 3",sans-serif;padding:9px 12px;border-radius:6px;border:1px solid var(--linha);background:var(--papel);color:var(--texto)}
+.aviso{color:var(--suave);font-size:14px;margin:12px 2px 0}
+.vazio{padding:28px 20px;text-align:center}
+.vazio b{display:block;font:700 24px "Barlow Condensed",sans-serif;margin-bottom:6px}
+.grafico{padding:14px 10px 6px;overflow-x:auto}
+.legenda{display:flex;flex-wrap:wrap;gap:6px 16px;padding:6px 14px 16px;font-size:14px}
+.legenda i{display:inline-block;width:12px;height:3px;margin-right:6px;vertical-align:middle;border-radius:2px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1 id="titulo">Cartoleiros Brothers</h1>
+  <p class="sub" id="sub">Carregando dados…</p>
+</div></header>
+<nav><div class="wrap" role="tablist">
+  <button role="tab" aria-selected="true" data-aba="geral">Classificação</button>
+  <button role="tab" aria-selected="false" data-aba="rodadas">Rodadas</button>
+  <button role="tab" aria-selected="false" data-aba="evolucao">Evolução</button>
+</div></nav>
+<main><div class="wrap">
+  <section id="geral"></section>
+  <section id="rodadas" hidden></section>
+  <section id="evolucao" hidden></section>
+</div></main>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = (n) => n == null ? '–' : n.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const CORES = ['#1f7a4d','#d2453d','#2b6cb0','#c9951a','#7b4fa3','#0f9aa8','#b5527a','#6b7a2a','#444c52','#d17a22'];
+let D, FECHADAS = [];
+
+const escudo = (t) => t.escudo
+  ? `<img class="escudo" src="${esc(t.escudo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'sem-escudo'}))">`
+  : '<div class="sem-escudo"></div>';
+
+const pontosNa = (t, r) => r === D.rodadaParcial ? t.parcial : (t.pontos[r] ?? null);
+
+function iniciar() {
+  fetch('data/liga.json?' + Date.now())
+    .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
+    .then((d) => { D = d; montar(); })
+    .catch(() => vazio('Não foi possível carregar os dados', 'Confira se o arquivo data/liga.json existe no repositório.'));
+}
+
+function vazio(titulo, texto) {
+  $('#sub').textContent = '';
+  $('#geral').innerHTML = `<div class="painel vazio"><b>${esc(titulo)}</b>${esc(texto)}</div>`;
+}
+
+function montar() {
+  if (D.liga) { $('#titulo').textContent = D.liga; document.title = D.liga; }
+  if (!D.times || !D.times.length) {
+    vazio('Ainda não há dados da liga', 'Rode a ação “Atualizar dados do Cartola” na aba Actions do GitHub.');
+    return;
+  }
+  const todas = new Set();
+  D.times.forEach((t) => Object.keys(t.pontos).forEach((r) => { if (t.pontos[r] != null) todas.add(+r); }));
+  FECHADAS = [...todas].sort((a, b) => a - b);
+
+  D.times.forEach((t) => {
+    t.total = FECHADAS.reduce((s, r) => s + (t.pontos[r] || 0), 0);
+    t.jogadas = FECHADAS.filter((r) => t.pontos[r] != null).length;
+  });
+
+  const quando = D.atualizadoEm ? new Date(D.atualizadoEm).toLocaleString('pt-BR', {dateStyle: 'short', timeStyle: 'short'}) : '';
+  $('#sub').textContent = `${FECHADAS.length} rodada${FECHADAS.length === 1 ? '' : 's'} fechada${FECHADAS.length === 1 ? '' : 's'}` + (quando ? ` · atualizado em ${quando}` : '');
+
+  geral(); rodadas(); evolucao();
+}
+
+function geral() {
+  const lista = [...D.times].sort((a, b) => b.total - a.total);
+  const ultima = FECHADAS[FECHADAS.length - 1];
+  $('#geral').innerHTML = `<div class="painel">` + lista.map((t, i) => `
+    <div class="linha ${i === 0 ? 'lider' : ''}">
+      <div class="pos">${i + 1}</div>
+      ${escudo(t)}
+      <div><div class="nome">${esc(t.nome)}</div><div class="dono">${esc(t.dono)}${t.jogadas ? ` · média ${fmt(t.total / t.jogadas)}` : ''}</div></div>
+      <div class="pts">${fmt(t.total)}<small>${ultima ? `R${ultima}: ${fmt(t.pontos[ultima])}` : ''}</small></div>
+    </div>`).join('') + `</div>
+    <p class="aviso">Soma das rodadas fechadas. Pontuação parcial de rodada em andamento fica na aba Rodadas.</p>`;
+}
+
+function rodadas() {
+  const opcoes = [...FECHADAS];
+  if (D.rodadaParcial) opcoes.push(D.rodadaParcial);
+  if (!opcoes.length) { $('#rodadas').innerHTML = '<div class="painel vazio"><b>Nenhuma rodada ainda</b>Os dados aparecem depois da primeira rodada.</div>'; return; }
+  $('#rodadas').innerHTML = `
+    <div class="barra"><label for="sel">Rodada</label>
+      <select id="sel">${opcoes.slice().reverse().map((r) => `<option value="${r}">${r}${r === D.rodadaParcial ? ' (em andamento)' : ''}</option>`).join('')}</select>
+    </div><div id="rod"></div>`;
+  const desenhar = () => {
+    const r = +$('#sel').value;
+    const lista = D.times.map((t) => ({t, p: pontosNa(t, r)})).sort((a, b) => (b.p ?? -1e9) - (a.p ?? -1e9));
+    const validos = lista.filter((x) => x.p != null);
+    const mito = validos[0], pior = validos.length > 1 ? validos[validos.length - 1] : null;
+    $('#rod').innerHTML = `<div class="painel">` + lista.map((x, i) => `
+      <div class="linha">
+        <div class="pos">${i + 1}</div>${escudo(x.t)}
+        <div><div class="nome">${esc(x.t.nome)}</div><div class="dono">${esc(x.t.dono)}</div></div>
+        <div class="pts">${x.p === mito?.p && x === mito ? '<span class="cartao amarelo" title="Mito da rodada"></span>' : ''}${x === pior ? '<span class="cartao vermelho" title="Pior da rodada"></span>' : ''}${fmt(x.p)}</div>
+      </div>`).join('') + `</div>
+      <p class="aviso"><span class="cartao amarelo"></span>melhor pontuação da rodada <span class="cartao vermelho" style="margin-left:12px"></span>pior pontuação.${r === D.rodadaParcial ? ' Rodada em andamento: valores parciais.' : ''}</p>`;
+  };
+  $('#sel').addEventListener('change', desenhar);
+  desenhar();
+}
+
+function evolucao() {
+  if (FECHADAS.length < 2) { $('#evolucao').innerHTML = '<div class="painel vazio"><b>Poucos dados</b>O gráfico aparece a partir da segunda rodada fechada.</div>'; return; }
+  const W = 760, H = 340, m = {l: 48, r: 16, t: 14, b: 30};
+  const series = D.times.map((t, i) => {
+    let acc = 0;
+    return {t, cor: CORES[i % CORES.length], pts: FECHADAS.map((r) => (acc += t.pontos[r] || 0))};
+  });
+  const max = Math.max(...series.flatMap((s) => s.pts)) || 1;
+  const x = (i) => m.l + (i * (W - m.l - m.r)) / (FECHADAS.length - 1);
+  const y = (v) => H - m.b - (v / max) * (H - m.t - m.b);
+  const grade = [0, .25, .5, .75, 1].map((f) => {
+    const v = max * f;
+    return `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--linha)"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="12" fill="var(--suave)">${Math.round(v)}</text>`;
+  }).join('');
+  const passo = Math.ceil(FECHADAS.length / 12);
+  const eixoX = FECHADAS.map((r, i) => i % passo === 0 || i === FECHADAS.length - 1
+    ? `<text x="${x(i)}" y="${H - 8}" text-anchor="middle" font-size="12" fill="var(--suave)">${r}</text>` : '').join('');
+  const linhas = series.map((s) => `<polyline fill="none" stroke="${s.cor}" stroke-width="2.5" stroke-linejoin="round" points="${s.pts.map((v, i) => `${x(i)},${y(v)}`).join(' ')}"/>`).join('');
+  $('#evolucao').innerHTML = `<div class="painel"><div class="grafico"><svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:560px" role="img" aria-label="Pontos acumulados por rodada">${grade}${eixoX}${linhas}</svg></div>
+    <div class="legenda">${series.map((s) => `<span><i style="background:${s.cor}"></i>${esc(s.t.nome)}</span>`).join('')}</div></div>
+    <p class="aviso">Pontos acumulados ao longo das rodadas fechadas.</p>`;
+}
+
+document.querySelectorAll('nav button').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('nav button').forEach((x) => x.setAttribute('aria-selected', x === b));
+  ['geral', 'rodadas', 'evolucao'].forEach((id) => { $('#' + id).hidden = id !== b.dataset.aba; });
+}));
+
+iniciar();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "liga": "Cartoleiros Brothers",
+  "times": [
+    { "dono": "Erick", "time": "COLOQUE AQUI O NOME EXATO DO SEU TIME NO CARTOLA" },
+    { "dono": "Amigo 2", "time": "Nome do time do amigo 2" },
+    { "dono": "Amigo 3", "time": "Nome do time do amigo 3", "slug": "opcional-se-a-busca-por-nome-errar" }
+  ]
+}
