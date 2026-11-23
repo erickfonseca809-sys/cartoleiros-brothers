@@ -8,7 +8,7 @@ const teams = (league.times || []).map(t => {
   const id = Number(t.id);
   if (!Number.isFinite(id)) throw new Error('ID ausente para '+t.nome);
   const points = t.pontos || {};
-  const closedRounds = Object.entries(points).filter(([r,v])=>Number(r)<=(league.rodadaParcial || league.rodadaAtual) && v!==null);
+  const closedRounds = Object.entries(points).filter(([r,v])=>Number(r)<(league.rodadaParcial || (league.rodadaAtual+1)) && v!==null);
   const total = closedRounds.reduce((sum,[r,v])=>sum+Number(v),0);
   const partial = league.rodadaParcial ? (t.parcial ?? null) : null;
   return {
