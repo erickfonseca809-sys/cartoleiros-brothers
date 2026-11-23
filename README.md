@@ -1,7 +1,12 @@
 # Cartoleiros Brothers
 
-Site da liga com classificação acumulada e parciais da rodada.
+Projeto de dados e site da liga Cartoleiros Brothers.
 
-O workflow **Atualizar e publicar Cartoleiros Brothers** consulta a API pública do Cartola a cada 30 minutos, atualiza `docs/data.json` e publica o site pelo GitHub Pages.
+## Coleta automática
+O workflow do GitHub Actions consulta a API pública do Cartola a cada **3 horas** (e pode ser executado manualmente em Actions). O coletor atual grava em `data/liga.json`; o workflow valida a estrutura do arquivo antes de salvar alterações.
 
-Para a primeira publicação, abra **Settings → Pages** e selecione **GitHub Actions** como fonte. Depois execute o workflow manualmente em **Actions**.
+## Estado da integração
+A página em `docs/index.html` ainda consome `docs/data.json`. A coleta atual grava em `data/liga.json`, portanto os dois formatos/caminhos ainda precisam ser integrados antes de afirmar que o site publicado recebe os dados automáticos.
+
+## Primeira publicação do GitHub Pages
+Em **Settings → Pages**, selecione GitHub Actions como fonte, se necessário.
