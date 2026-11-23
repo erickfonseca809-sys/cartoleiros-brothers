@@ -1,4 +1,4 @@
-name: Atualizar e publicar Cartoleiros Brothers
+name: Atualizar dados Cartoleiros Brothers
 on:
   push:
     branches: [main]
@@ -6,13 +6,7 @@ on:
   schedule:
     - cron: "*/30 * * * *"
 permissions:
-  actions: read
   contents: write
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: true
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -33,9 +27,3 @@ jobs:
           git diff --cached --quiet || git commit -m "Atualiza dados da liga"
           git pull --rebase origin main
           git push
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - name: Publicar no GitHub Pages
-        uses: actions/deploy-pages@v4
