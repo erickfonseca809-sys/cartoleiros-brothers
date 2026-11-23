@@ -9,7 +9,9 @@ def api(path, authenticated=False):
  headers={"User-Agent":"Mozilla/5.0 CartoleirosBrothers","Accept":"application/json"}
  if authenticated and os.environ.get("CARTOLA_COOKIE"):
   token=os.environ["CARTOLA_COOKIE"].strip()
-  headers["Authorization"]=token if token.lower().startswith("bearer ") else "Bearer "+token
+  token=token[7:].strip() if token.lower().startswith("bearer ") else token
+  headers["X-GLB-Token"]=token
+  headers["Authorization"]="Bearer "+token
  req=Request(API+path,headers=headers)
  with urlopen(req,timeout=25) as r:return json.loads(r.read().decode())
 def n(x):
