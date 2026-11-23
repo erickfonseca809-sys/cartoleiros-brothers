@@ -35,5 +35,5 @@ const next = {
   teams,
   ...(mappedH2H ? {pointsCompetition:mappedH2H} : {})
 };
-await writeFile('docs/data.json', JSON.stringify(next,null,2)+'\\n');
+await writeFile('docs/data.json', JSON.stringify(next,null,2)+'\n');
 console.log('Dados da liga integrados em docs/data.json');
