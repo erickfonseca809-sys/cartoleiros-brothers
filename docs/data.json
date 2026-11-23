@@ -65,7 +65,7 @@
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 50.0,
+        "points": 50,
         "playersCounted": 7,
         "playersMissing": 5,
         "isPartial": true,
@@ -257,7 +257,7 @@
       "roundsCount": 35,
       "missingRounds": [],
       "live": {
-        "points": 5.0,
+        "points": 5,
         "playersCounted": 3,
         "playersMissing": 9,
         "isPartial": true,
@@ -331,46 +331,3346 @@
   ],
   "pointsCompetition": {
     "rounds": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": [],
-      "7": [],
-      "8": [],
-      "9": [],
-      "10": [],
-      "11": [],
-      "12": [],
-      "13": [],
-      "14": [],
-      "15": [],
-      "16": [],
-      "17": [],
-      "18": [],
-      "19": [],
-      "20": [],
-      "21": [],
-      "22": [],
-      "23": [],
-      "24": [],
-      "25": [],
-      "26": [],
-      "27": [],
-      "28": [],
-      "29": [],
-      "30": [],
-      "31": [],
-      "32": [],
-      "33": [],
-      "34": [],
-      "35": [],
-      "36": [],
-      "37": [],
-      "38": []
+      "1": [
+        {
+          "homeId": "822609",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "2": [
+        {
+          "homeId": "996837",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "3": [
+        {
+          "homeId": "822609",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "4": [
+        {
+          "homeId": "727526",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "5": [
+        {
+          "homeId": "822609",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "6": [
+        {
+          "homeId": "49150912",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "7": [
+        {
+          "homeId": "822609",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "8": [
+        {
+          "homeId": "8699275",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "9": [
+        {
+          "homeId": "822609",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "10": [
+        {
+          "homeId": "340516",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "11": [
+        {
+          "homeId": "822609",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "12": [
+        {
+          "homeId": "29289498",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "13": [
+        {
+          "homeId": "822609",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "14": [
+        {
+          "homeId": "4335282",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "15": [
+        {
+          "homeId": "822609",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "16": [
+        {
+          "homeId": "25859656",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "17": [
+        {
+          "homeId": "822609",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "18": [
+        {
+          "homeId": "25462945",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "19": [
+        {
+          "homeId": "822609",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "20": [
+        {
+          "homeId": "49637294",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "21": [
+        {
+          "homeId": "822609",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "22": [
+        {
+          "homeId": "25860015",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "23": [
+        {
+          "homeId": "822609",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "24": [
+        {
+          "homeId": "50987989",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "25": [
+        {
+          "homeId": "822609",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "26": [
+        {
+          "homeId": "49133730",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "27": [
+        {
+          "homeId": "822609",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "28": [
+        {
+          "homeId": "50097469",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "29": [
+        {
+          "homeId": "822609",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "30": [
+        {
+          "homeId": "2228212",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "31": [
+        {
+          "homeId": "822609",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "32": [
+        {
+          "homeId": "27099138",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "33": [
+        {
+          "homeId": "822609",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "34": [
+        {
+          "homeId": "28784388",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "35": [
+        {
+          "homeId": "822609",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "36": [
+        {
+          "homeId": "25835524",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25462945",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "328768",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "50097469",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "37": [
+        {
+          "homeId": "822609",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25835524",
+          "awayId": "328768",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25859656",
+          "awayId": "49637294",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "28784388",
+          "awayId": "996837",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "4335282",
+          "awayId": "25860015",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "27099138",
+          "awayId": "727526",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "29289498",
+          "awayId": "50987989",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "2228212",
+          "awayId": "49150912",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "340516",
+          "awayId": "49133730",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "8699275",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ],
+      "38": [
+        {
+          "homeId": "328768",
+          "awayId": "822609",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49637294",
+          "awayId": "25462945",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "996837",
+          "awayId": "25835524",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "25860015",
+          "awayId": "25859656",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "727526",
+          "awayId": "28784388",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50987989",
+          "awayId": "4335282",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49150912",
+          "awayId": "27099138",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "49133730",
+          "awayId": "29289498",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "8699275",
+          "awayId": "2228212",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        },
+        {
+          "homeId": "50097469",
+          "awayId": "340516",
+          "homeScore": null,
+          "awayScore": null,
+          "homePts": null,
+          "awayPts": null
+        }
+      ]
     },
-    "teams": {},
-    "standings": []
+    "teams": {
+      "328768": "Furious ScorpionS",
+      "340516": "Club XV de Quatorze",
+      "727526": "B.L.S Camisa 10",
+      "822609": "ARJ 26 F.C",
+      "996837": "Jumentus Dortmund",
+      "2228212": "Esther 2022",
+      "4335282": "Makukos F.C",
+      "8699275": "Bazsant FC",
+      "25462945": "SP Tri-Mundial 2005",
+      "25835524": "Real TitoHenrique 8",
+      "25859656": "Fonseca'sClub",
+      "25860015": "Atletico Oyatsu",
+      "27099138": "Paris Saint Ângela",
+      "28784388": "Aicitel de Latiffa",
+      "29289498": "Estrela de Atibaia",
+      "49133730": "MOURTOLA FC",
+      "49150912": "Milan AFCP",
+      "49637294": "Gustxxxvv",
+      "50097469": "FC.BlackandWhite",
+      "50987989": "vinicius boca junior"
+    },
+    "standings": [
+      {
+        "id": "822609",
+        "name": "ARJ 26 F.C",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "328768",
+        "name": "Furious ScorpionS",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "25462945",
+        "name": "SP Tri-Mundial 2005",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "25835524",
+        "name": "Real TitoHenrique 8",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "25859656",
+        "name": "Fonseca'sClub",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "28784388",
+        "name": "Aicitel de Latiffa",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "4335282",
+        "name": "Makukos F.C",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "27099138",
+        "name": "Paris Saint Ângela",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "29289498",
+        "name": "Estrela de Atibaia",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "2228212",
+        "name": "Esther 2022",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "340516",
+        "name": "Club XV de Quatorze",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "50097469",
+        "name": "FC.BlackandWhite",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "8699275",
+        "name": "Bazsant FC",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "49133730",
+        "name": "MOURTOLA FC",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "49150912",
+        "name": "Milan AFCP",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "50987989",
+        "name": "vinicius boca junior",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "727526",
+        "name": "B.L.S Camisa 10",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "25860015",
+        "name": "Atletico Oyatsu",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "996837",
+        "name": "Jumentus Dortmund",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      },
+      {
+        "id": "49637294",
+        "name": "Gustxxxvv",
+        "points": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "sg": 0,
+        "played": 0
+      }
+    ]
   }
 }
