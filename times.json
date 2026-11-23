@@ -1,8 +1,25 @@
 {
   "liga": "Cartoleiros Brothers",
   "times": [
-    { "dono": "Erick", "time": "COLOQUE AQUI O NOME EXATO DO SEU TIME NO CARTOLA" },
-    { "dono": "Amigo 2", "time": "Nome do time do amigo 2" },
-    { "dono": "Amigo 3", "time": "Nome do time do amigo 3", "slug": "opcional-se-a-busca-por-nome-errar" }
+    { "dono": "Fabio Araujo", "time": "ARJ 26 F.C" },
+    { "dono": "LeH Borba", "time": "Furious ScorpionS" },
+    { "dono": "Leandro", "time": "SP Tri-Mundial 2005" },
+    { "dono": "Fonseca", "time": "Fonseca'sClub" },
+    { "dono": "Thiago Henrique", "time": "Real TitoHenrique 8" },
+    { "dono": "Leticia Fonseca", "time": "Aicitel de Latiffa" },
+    { "dono": "Samuel", "time": "Paris Saint Ângela" },
+    { "dono": "Markinhos", "time": "Makukos F.C" },
+    { "dono": "Yuri Almeida", "time": "Estrela de Atibaia" },
+    { "dono": "Ugo Godoi", "time": "Esther 2022" },
+    { "dono": "Bruno", "time": "B.L.S Camisa 10 (Porque sou humilde)" },
+    { "dono": "Daniel Guedes", "time": "Club XV de Quatorze" },
+    { "dono": "Gustavo Teixeira", "time": "Atletico Ovatsug" },
+    { "dono": "Lara Felix", "time": "FC.BlackandWhite" },
+    { "dono": "Jhones Bazilio", "time": "Bazsant FC" },
+    { "dono": "Caah Hiimalaia", "time": "Jumentus Dortmund" },
+    { "dono": "Rafael Francisco", "time": "Milan AFCP" },
+    { "dono": "Guilherme Moura", "time": "MOURTOLA FC" },
+    { "dono": "Vinicius Oliveira so", "time": "vinicius boca junior" },
+    { "dono": "Gustavo Ribeiro", "time": "Gustxxxv" }
   ]
 }

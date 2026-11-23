@@ -62,7 +62,7 @@ select{font:600 16px "Source Sans 3",sans-serif;padding:9px 12px;border-radius:6
   <p class="sub" id="sub">Carregando dados…</p>
 </div></header>
 <nav><div class="wrap" role="tablist">
-  <button role="tab" aria-selected="true" data-aba="geral">Classificação</button>
+  <button role="tab" aria-selected="true" data-aba="geral">Pontos</button>
   <button role="tab" aria-selected="false" data-aba="rodadas">Rodadas</button>
   <button role="tab" aria-selected="false" data-aba="evolucao">Evolução</button>
 </div></nav>
@@ -128,7 +128,7 @@ function geral() {
       <div><div class="nome">${esc(t.nome)}</div><div class="dono">${esc(t.dono)}${t.jogadas ? ` · média ${fmt(t.total / t.jogadas)}` : ''}</div></div>
       <div class="pts">${fmt(t.total)}<small>${ultima ? `R${ultima}: ${fmt(t.pontos[ultima])}` : ''}</small></div>
     </div>`).join('') + `</div>
-    <p class="aviso">Soma das rodadas fechadas. Pontuação parcial de rodada em andamento fica na aba Rodadas.</p>`;
+    <p class="aviso">Soma dos pontos do Cartola (a coluna PC da liga) nas rodadas fechadas. Não é a classificação por vitórias.</p>`;
 }
 
 function rodadas() {
