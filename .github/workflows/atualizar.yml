@@ -28,7 +28,8 @@ jobs:
           for (const url of [
             'https://api.cartola.globo.com/mercado/status',
             'https://api.cartola.globo.com/atletas/pontuados',
-            'https://api.cartola.globo.com/atletas/pontuados/36'
+            'https://api.cartola.globo.com/atletas/pontuados/36',
+            'https://api.cartola.globo.com/time/slug/fonseca-sclub/36'
           ]) {
             try {
               const res = await fetch(url,{headers});
@@ -42,7 +43,14 @@ jobs:
                   if (athletes && typeof athletes==='object') {
                     const first=Object.entries(athletes)[0];
                     console.log('Atletas count:',Object.keys(athletes).length,'Sample:',first);
-                  } else console.log('Sample response:',body.slice(0,700));
+                  } else {
+                console.log('Sample response:',body.slice(0,700));
+                if (url.includes('/time/slug/')) {
+                  console.log('Roster top-level keys:',Object.keys(j));
+                  console.log('Roster atletas type:',Array.isArray(j.atletas)?'array':typeof j.atletas);
+                  console.log('Roster athletes sample:',JSON.stringify(j.atletas?.slice?.(0,2) ?? j.atletas?.[0] ?? null).slice(0,800));
+                }
+              }
                 } catch { console.log('Body preview:',body.slice(0,400)); }
               }
             } catch(e) { console.log('Fetch error:',e.message); }
