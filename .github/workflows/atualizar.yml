@@ -21,25 +21,31 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Testar API alternativa KartolaFC
+      - name: Diagnosticar API oficial de parciais
         run: |
           node --input-type=module <<'NODE'
-          const fs = await import('node:fs');
-          const data = JSON.parse(fs.readFileSync('data/liga.json','utf8'));
-          const team = (data.times || []).find(t => t.id);
-          if (!team) { console.log('Sem ID de time salvo; teste ignorado.'); process.exit(0); }
-          const rodada = data.rodadaAtual || 1;
-          const url = `https://api.kartolafc.com.br/time/id/${team.id}/${rodada}`;
-          try {
-            const res = await fetch(url, {headers:{'User-Agent':'cartoleiros-brothers','Accept':'application/json'}});
-            const text = await res.text();
-            if (!res.ok || !text.trim()) throw new Error(`HTTP ${res.status} ou resposta vazia`);
-            const json = JSON.parse(text);
-            if (typeof json.pontos !== 'number') throw new Error('JSON recebido, mas sem campo pontos numérico');
-            console.log(`API alternativa OK: ${team.nome}, rodada ${rodada}, ${json.pontos} pontos`);
-          } catch (err) {
-            console.error('API alternativa falhou:', err.message);
-            process.exit(1);
+          const headers = {'User-Agent':'Mozilla/5.0 (compatible; cartoleiros-brothers)','Accept':'application/json'};
+          for (const url of [
+            'https://api.cartola.globo.com/mercado/status',
+            'https://api.cartola.globo.com/atletas/pontuados',
+            'https://api.cartola.globo.com/atletas/pontuados/36'
+          ]) {
+            try {
+              const res = await fetch(url,{headers});
+              const body = await res.text();
+              console.log('URL:',url,'HTTP:',res.status,'Bytes:',body.length);
+              if (res.ok && body.trim()) {
+                try {
+                  const j=JSON.parse(body);
+                  console.log('JSON keys:',Object.keys(j));
+                  const athletes=j.atletas;
+                  if (athletes && typeof athletes==='object') {
+                    const first=Object.entries(athletes)[0];
+                    console.log('Atletas count:',Object.keys(athletes).length,'Sample:',first);
+                  } else console.log('Sample response:',body.slice(0,700));
+                } catch { console.log('Body preview:',body.slice(0,400)); }
+              }
+            } catch(e) { console.log('Fetch error:',e.message); }
           }
           NODE
       - name: Buscar dados do Cartola
