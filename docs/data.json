@@ -2,10 +2,10 @@
   "competition": "Cartoleiros Brothers",
   "competitionId": "d5j7miik58ms73dbfmc0",
   "season": 2026,
-  "currentRound": 36,
+  "currentRound": 37,
   "marketStatus": null,
   "ballRolling": null,
-  "updatedAt": "2026-11-24T13:03:09.274Z",
+  "updatedAt": "2026-11-24T16:00:20.027Z",
   "source": "API pública do Cartola • GitHub Actions",
   "teams": [
     {
@@ -48,7 +48,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2957.27,
       "roundsCount": 0,
@@ -87,7 +88,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -137,7 +139,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2967.48,
       "roundsCount": 0,
@@ -176,7 +179,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -226,7 +230,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2928.83,
       "roundsCount": 0,
@@ -265,7 +270,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -315,7 +321,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2945.05,
       "roundsCount": 0,
@@ -354,7 +361,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -404,7 +412,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 3029.67,
       "roundsCount": 0,
@@ -443,7 +452,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -493,7 +503,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2842.67,
       "roundsCount": 0,
@@ -532,7 +543,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -582,7 +594,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2672.16,
       "roundsCount": 0,
@@ -621,7 +634,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -671,7 +685,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2578.19,
       "roundsCount": 0,
@@ -710,7 +725,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -760,7 +776,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2699.27,
       "roundsCount": 0,
@@ -799,7 +816,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -849,7 +867,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2589.86,
       "roundsCount": 0,
@@ -888,7 +907,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -938,7 +958,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2598.81,
       "roundsCount": 0,
@@ -977,7 +998,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1027,7 +1049,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2401.78,
       "roundsCount": 0,
@@ -1066,7 +1089,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1116,7 +1140,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2583.61,
       "roundsCount": 0,
@@ -1155,7 +1180,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1205,7 +1231,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2460.17,
       "roundsCount": 0,
@@ -1244,7 +1271,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1294,7 +1322,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2098.22,
       "roundsCount": 0,
@@ -1333,7 +1362,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1383,7 +1413,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 2060.45,
       "roundsCount": 0,
@@ -1422,7 +1453,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1472,7 +1504,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 1839.18,
       "roundsCount": 0,
@@ -1511,7 +1544,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1561,7 +1595,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 1841.3,
       "roundsCount": 0,
@@ -1600,7 +1635,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1650,7 +1686,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 1279.16,
       "roundsCount": 0,
@@ -1689,7 +1726,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
@@ -1739,7 +1777,8 @@
         "32": null,
         "33": null,
         "34": null,
-        "35": null
+        "35": null,
+        "36": null
       },
       "totalWithLive": 1473.52,
       "roundsCount": 0,
@@ -1778,7 +1817,8 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
       "live": {
         "points": null,
