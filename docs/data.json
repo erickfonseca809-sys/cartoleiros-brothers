@@ -5,7 +5,7 @@
   "currentRound": 36,
   "marketStatus": null,
   "ballRolling": null,
-  "updatedAt": "2026-11-24T10:01:34.415Z",
+  "updatedAt": "2026-11-24T11:03:53.509Z",
   "source": "API pública do Cartola • GitHub Actions",
   "teams": [
     {
@@ -50,7 +50,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 3010.48,
+      "totalWithLive": 2957.27,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -90,10 +90,10 @@
         35
       ],
       "live": {
-        "points": 53.21,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -139,7 +139,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 3029.4900000000002,
+      "totalWithLive": 2967.48,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -179,10 +179,10 @@
         35
       ],
       "live": {
-        "points": 62.01,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -228,7 +228,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2988.74,
+      "totalWithLive": 2928.83,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -268,10 +268,10 @@
         35
       ],
       "live": {
-        "points": 59.91,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -317,7 +317,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 3016.59,
+      "totalWithLive": 2945.05,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -357,10 +357,10 @@
         35
       ],
       "live": {
-        "points": 71.54,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -406,7 +406,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 3079.67,
+      "totalWithLive": 3029.67,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -446,10 +446,10 @@
         35
       ],
       "live": {
-        "points": 50,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -495,7 +495,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2892.1800000000003,
+      "totalWithLive": 2842.67,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -535,10 +535,10 @@
         35
       ],
       "live": {
-        "points": 49.51,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -584,7 +584,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2762.1,
+      "totalWithLive": 2672.16,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -624,10 +624,10 @@
         35
       ],
       "live": {
-        "points": 89.94,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -673,7 +673,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2612.9900000000002,
+      "totalWithLive": 2578.19,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -713,10 +713,10 @@
         35
       ],
       "live": {
-        "points": 34.8,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -762,7 +762,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2758.87,
+      "totalWithLive": 2699.27,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -802,10 +802,10 @@
         35
       ],
       "live": {
-        "points": 59.6,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -851,7 +851,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2641.26,
+      "totalWithLive": 2589.86,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -891,10 +891,10 @@
         35
       ],
       "live": {
-        "points": 51.4,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -940,7 +940,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2611.61,
+      "totalWithLive": 2598.81,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -980,10 +980,10 @@
         35
       ],
       "live": {
-        "points": 12.8,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1029,7 +1029,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2480.1200000000003,
+      "totalWithLive": 2401.78,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1069,10 +1069,10 @@
         35
       ],
       "live": {
-        "points": 78.34,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1118,7 +1118,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2627.2200000000003,
+      "totalWithLive": 2583.61,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1158,10 +1158,10 @@
         35
       ],
       "live": {
-        "points": 43.61,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1207,7 +1207,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2536.57,
+      "totalWithLive": 2460.17,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1247,10 +1247,10 @@
         35
       ],
       "live": {
-        "points": 76.4,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1296,7 +1296,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2136.1,
+      "totalWithLive": 2098.22,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1336,10 +1336,10 @@
         35
       ],
       "live": {
-        "points": 37.88,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1385,7 +1385,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 2094.18,
+      "totalWithLive": 2060.45,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1425,10 +1425,10 @@
         35
       ],
       "live": {
-        "points": 33.73,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1474,7 +1474,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 1866.8200000000002,
+      "totalWithLive": 1839.18,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1514,10 +1514,10 @@
         35
       ],
       "live": {
-        "points": 27.64,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1563,7 +1563,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 1883.8,
+      "totalWithLive": 1841.3,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1603,10 +1603,10 @@
         35
       ],
       "live": {
-        "points": 42.5,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1652,7 +1652,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 1284.16,
+      "totalWithLive": 1279.16,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1692,10 +1692,10 @@
         35
       ],
       "live": {
-        "points": 5,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     },
@@ -1741,7 +1741,7 @@
         "34": null,
         "35": null
       },
-      "totalWithLive": 1494.92,
+      "totalWithLive": 1473.52,
       "roundsCount": 0,
       "missingRounds": [
         1,
@@ -1781,10 +1781,10 @@
         35
       ],
       "live": {
-        "points": 21.4,
+        "points": null,
         "playersCounted": null,
         "playersMissing": null,
-        "isPartial": true,
+        "isPartial": false,
         "error": null
       }
     }
