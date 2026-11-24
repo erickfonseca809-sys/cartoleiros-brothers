@@ -48,7 +48,7 @@ const st = status.status_mercado; // 1 = aberto, 2 = fechado (rodada em andament
 let ultimaFechada = rodada;
 let rodadaParcial = null;
 if (st === 1) ultimaFechada = rodada - 1;
-else if (st === 2) { ultimaFechada = rodada - 1; rodadaParcial = rodada; }
+else if (st === 2 && status.bola_rolando === true) { ultimaFechada = rodada - 1; rodadaParcial = rodada; }
 console.log(`Rodada atual: ${rodada} | status do mercado: ${st} | rodadas fechadas: 1 a ${ultimaFechada}`);
 
 async function resolver(cfg) {
@@ -106,9 +106,25 @@ for (const cfg of config.times) {
   }
 
   if (rodadaParcial) {
-    const d = await get(`/time/slug/${time.slug}/${rodadaParcial}`);
+    // Prefer the independent KartolaFC API proxy for live scores, then fall back to Globo.
+    let d = null;
+    if (time.id) {
+      try {
+        const proxy = await fetch(`https://api.kartolafc.com.br/time/id/${time.id}/${rodadaParcial}`, { headers: HEADERS });
+        if (proxy.ok) {
+          const body = await proxy.text();
+          if (body.trim()) d = JSON.parse(body);
+        }
+      } catch (e) {
+        console.warn(`Proxy parcial falhou para ${time.nome}: ${e.message}`);
+      }
+    }
+    if (!d || typeof d.pontos !== 'number') {
+      d = await get(`/time/slug/${time.slug}/${rodadaParcial}`);
+    }
     await sleep(150);
     time.parcial = d && typeof d.pontos === 'number' ? d.pontos : null;
+    if (time.parcial == null) console.warn(`Parcial indisponível: ${time.nome} (${time.id})`);
   }
   resultado.push(time);
   console.log(`OK: ${time.nome} (${time.dono})`);
