@@ -106,25 +106,26 @@ for (const cfg of config.times) {
   }
 
   if (rodadaParcial) {
-    // Prefer the independent KartolaFC API proxy for live scores, then fall back to Globo.
-    let d = null;
-    if (time.id) {
-      try {
-        const proxy = await fetch(`https://api.kartolafc.com.br/time/id/${time.id}/${rodadaParcial}`, { headers: HEADERS });
-        if (proxy.ok) {
-          const body = await proxy.text();
-          if (body.trim()) d = JSON.parse(body);
-        }
-      } catch (e) {
-        console.warn(`Proxy parcial falhou para ${time.nome}: ${e.message}`);
+    // Calculate team partials from official player scores, matching roster IDs.
+    const [roster, playerScores] = await Promise.all([
+      get(`/time/slug/${time.slug}/${rodadaParcial}`),
+      get('/atletas/pontuados'),
+    ]);
+    const rosterPlayers = roster?.atletas;
+    const scorePlayers = playerScores?.atletas;
+    if (Array.isArray(rosterPlayers) && scorePlayers && typeof scorePlayers === 'object') {
+      const ids = rosterPlayers.map(p => Number(p.atleta_id ?? p.id)).filter(Number.isFinite);
+      const matched = ids.map(id => scorePlayers[String(id)]).filter(p => p && typeof p.pontuacao === 'number');
+      if (ids.length && matched.length) {
+        time.parcial = matched.reduce((sum, p) => sum + p.pontuacao, 0);
+        console.log(`Parcial oficial calculada: ${time.nome} — ${matched.length}/${ids.length} atletas, ${time.parcial} pts`);
+      } else {
+        console.warn(`Roster/parciais sem correspondência para ${time.nome}; não atribuindo zero`);
       }
+    } else {
+      console.warn(`Formato de elenco/parciais não reconhecido para ${time.nome}`);
+      console.log('Campos elenco:', roster ? Object.keys(roster) : 'sem resposta', 'Campos pontuados:', playerScores ? Object.keys(playerScores) : 'sem resposta');
     }
-    if (!d || typeof d.pontos !== 'number') {
-      d = await get(`/time/slug/${time.slug}/${rodadaParcial}`);
-    }
-    await sleep(150);
-    time.parcial = d && typeof d.pontos === 'number' ? d.pontos : null;
-    if (time.parcial == null) console.warn(`Parcial indisponível: ${time.nome} (${time.id})`);
   }
   resultado.push(time);
   console.log(`OK: ${time.nome} (${time.dono})`);
