@@ -21,9 +21,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Testar fonte alternativa de pontuação (KartolaFC)
+      - name: Testar API alternativa KartolaFC
         run: |
-          node -e "const fs=require('fs'); const teams=JSON.parse(fs.readFileSync('times.json')); console.log('Times configurados:', teams.times.length); console.log('Teste de fonte alternativa será feito na coleta por time/rodada ativa.');"
+          node --input-type=module <<'NODE'
+          const fs = await import('node:fs');
+          const data = JSON.parse(fs.readFileSync('data/liga.json','utf8'));
+          const team = (data.times || []).find(t => t.id);
+          if (!team) { console.log('Sem ID de time salvo; teste ignorado.'); process.exit(0); }
+          const rodada = data.rodadaAtual || 1;
+          const url = `https://api.kartolafc.com.br/time/id/${team.id}/${rodada}`;
+          try {
+            const res = await fetch(url, {headers:{'User-Agent':'cartoleiros-brothers','Accept':'application/json'}});
+            const text = await res.text();
+            if (!res.ok || !text.trim()) throw new Error(`HTTP ${res.status} ou resposta vazia`);
+            const json = JSON.parse(text);
+            if (typeof json.pontos !== 'number') throw new Error('JSON recebido, mas sem campo pontos numérico');
+            console.log(`API alternativa OK: ${team.nome}, rodada ${rodada}, ${json.pontos} pontos`);
+          } catch (err) {
+            console.error('API alternativa falhou:', err.message);
+            process.exit(1);
+          }
+          NODE
       - name: Buscar dados do Cartola
         run: node scripts/atualizar.mjs
       - name: Integrar dados ao site
