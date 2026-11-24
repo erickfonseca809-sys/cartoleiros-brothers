@@ -85,9 +85,11 @@ for (const cfg of config.times) {
     parcial: null,
   };
 
-  // Coleta somente a rodada fechada mais recente; não tenta recuperar lacunas antigas.
+  // Só coleta rodada fechada quando o número da rodada avançou desde a execução anterior.
+  // Evita consultas a rodadas antigas nesta temporada; na temporada nova, o cache reinicia.
   const r = ultimaFechada;
-  if (r >= 1 && time.pontos[r] == null) {
+  const rodadaAvancou = !anterior.rodadaAtual || rodada > anterior.rodadaAtual;
+  if (rodadaAvancou && r >= 1 && time.pontos[r] == null) {
     let d = await get(`/time/slug/${time.slug}/${r}`);
     await sleep(400);
     // Fallback server-side proxy when the official historical endpoint returns no data.
