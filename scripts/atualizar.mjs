@@ -37,6 +37,12 @@ if (!status) {
   process.exit(1);
 }
 
+const temporada = status.temporada ?? null;
+// Reset cached teams and scores when Cartola starts a new season.
+if (temporada && anterior.temporada && temporada !== anterior.temporada) {
+  console.log(`Nova temporada ${temporada}; limpando cache da temporada ${anterior.temporada} e resolvendo times novamente.`);
+  anterior = { times: [] };
+}
 const rodada = status.rodada_atual;
 const st = status.status_mercado; // 1 = aberto, 2 = fechado (rodada em andamento)
 let ultimaFechada = rodada;
@@ -79,8 +85,9 @@ for (const cfg of config.times) {
     parcial: null,
   };
 
-  for (let r = 1; r <= ultimaFechada; r++) {
-    if (time.pontos[r] != null) continue; // já guardado, rodada fechada não muda
+  // Coleta somente a rodada fechada mais recente; não tenta recuperar lacunas antigas.
+  const r = ultimaFechada;
+  if (r >= 1 && time.pontos[r] == null) {
     let d = await get(`/time/slug/${time.slug}/${r}`);
     await sleep(400);
     // Fallback server-side proxy when the official historical endpoint returns no data.
@@ -91,15 +98,14 @@ for (const cfg of config.times) {
       } catch {}
       await sleep(250);
     }
-    if (!d) { time.pontos[r] = null; continue; }
-    if (d.time?.nome) time.nome = d.time.nome;
-    if (d.time?.url_escudo_png) time.escudo = d.time.url_escudo_png;
-    time.pontos[r] = typeof d.pontos === 'number' ? d.pontos : null;
+    if (d?.time?.nome) time.nome = d.time.nome;
+    if (d?.time?.url_escudo_png) time.escudo = d.time.url_escudo_png;
+    time.pontos[r] = typeof d?.pontos === 'number' ? d.pontos : null;
   }
 
   if (rodadaParcial) {
     const d = await get(`/time/slug/${time.slug}/${rodadaParcial}`);
-    await sleep(400);
+    await sleep(150);
     time.parcial = d && typeof d.pontos === 'number' ? d.pontos : null;
   }
   resultado.push(time);
