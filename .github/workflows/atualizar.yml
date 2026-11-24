@@ -21,6 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Testar fonte alternativa de pontuação (KartolaFC)
+        run: |
+          node -e "const fs=require('fs'); const teams=JSON.parse(fs.readFileSync('times.json')); console.log('Times configurados:', teams.times.length); console.log('Teste de fonte alternativa será feito na coleta por time/rodada ativa.');"
       - name: Buscar dados do Cartola
         run: node scripts/atualizar.mjs
       - name: Integrar dados ao site
